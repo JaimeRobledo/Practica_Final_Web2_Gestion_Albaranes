@@ -5,7 +5,6 @@ import { useRouter } from 'next/navigation';
 import Link from "next/link"
 import IRSLogo from '../images/IRS.png';
 import Navbar from '../components/navbar';
-import Clients from '../components/Clients';
 
 export default function SidebarLayout({children}) {
   const [isOpen, setIsOpen] = useState(false);
