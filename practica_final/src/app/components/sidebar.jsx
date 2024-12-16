@@ -6,7 +6,7 @@ import Link from "next/link"
 import IRSLogo from '../images/IRS.png';
 import Navbar from './navbar';
 
-const sidebar = () => {
+const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleSidebar = () => {
@@ -82,4 +82,4 @@ const sidebar = () => {
     </div>
   );
 }
-export default sidebar;
+export default Sidebar;
